@@ -7,12 +7,10 @@ nav img {
     width: 3rem;
   }
 
-.logo{
-    width: 3rem;
-    
-  }
-.logo:hover {
+  
+nav img:hover {
     content: url(img/logo\ rosa\ claro@144x-8.png);
+    width: 3rem;
     
   }
   
@@ -25,6 +23,14 @@ nav img {
     background-color: #1d1d1f;
 }
 
+.navegacion:hover {
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    z-index: 3;
+    background-color: #1d1d1f;
+
+}
 .burger {
     display: none;
 }

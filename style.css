@@ -2,8 +2,18 @@
     display: none;
 }
 
+ 
 nav img {
     width: 3rem;
+  }
+
+.logo{
+    width: 3rem;
+    
+  }
+.logo:hover {
+    content: url(img/logo\ rosa\ claro@144x-8.png);
+    
   }
   
 
@@ -20,8 +30,7 @@ nav img {
 }
 
 .links {
-   background-color: #1d1d1f;
-    display: flex;
+      display: flex;
     justify-content: flex-end;
     list-style: none;
     align-items: center;

@@ -31,12 +31,10 @@ nav img:hover {
     background-color: #1d1d1f;
 
 }
-.burger {
-    display: none;
-}
+
 
 .links {
-      display: flex;
+    display: flex;
     justify-content: flex-end;
     list-style: none;
     align-items: center;
@@ -73,7 +71,7 @@ nav img:hover {
     fill:#EB10DC;
 }
   
-  .menu-icons {
+.menu-icons {
     display: flex;
     order: 2;
     color:#f5f5f7;
@@ -89,24 +87,106 @@ nav img:hover {
     
 }
 
+body {
+background-image: url(img/fondo\ inflado.jpg);
+background-repeat: no-repeat;
+background-color: #1d1d1f;
+background-size: cover;
+display: flex;
+    
+
+}
 
 .one {
     height: calc(100vh);
-    background-image: url(img/fondo\ inflado.jpg);
-    background-size: cover;
+    
     display: flex;
     justify-content: start;
     align-items:start;
-    padding-left: 3rem;
+    padding-left: 4rem;
 
 }
 
 .one__title {
-    width: 70%;
+    width: 60%;
     text-align: start;
     position: absolute;
     top: 30%;
 }
 
+.circle {
+   
+        width: 310px;
+        height: 310px;
+        border-radius: 50%;
+        background-color: #1d1d1f;
+        position: absolute;
+        top: 50%;
+        right: 8%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        transition: all .3s ease;
+      
+}
 
+@media (max-width: 1024px) {
+    .circle {
+      display: none;
+    }
+  }
+  
+
+ 
+
+  .two {
+    justify-content: center;
+    margin-top: 95vh;
+    
+}
+
+.two__title {
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat SemiBold', sans-serif;
+    font-size: 36px;
+    color: #f5f5f7;
+
+}
+
+.two__title img{
+    padding: 10px;
+
+}
+
+.two__title img[src="img/icons8-figma-100.png"] {
+    width: 80px;
+    
+  }
+  
+  .two__title img[src="img/icons8-adobe-photoshop-100.png"] {
+    width: 90px;
+
+  }
+  .two__title img[src="img/icons8-adobe-illustrator-100.png"] {
+    width: 90px;
+
+  }
+  .two__title img[src="img/icons8-javascript-100.png"] {
+    width: 80px;
+
+  }
+  .two__title img[src="img/icons8-html-5-100.png"] {
+    width: 90px;;
+
+  }
+  .two__title img[src="img/icons8-css3-100.png"] {
+    width: 90px;
+
+  }
+  .two__title img[src="img/icons8-bootstrap-a-free-and-open-source-css-framework-100.png"] {
+    width: 70px;
+
+}
+ 
+  
 

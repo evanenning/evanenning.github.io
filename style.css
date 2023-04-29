@@ -92,7 +92,7 @@ body {
 background-image: url(img/fondo\ inflado.jpg);
 background-repeat: no-repeat;
 background-color: #1d1d1f;
-
+background-size: cover;
 display: flex;
 
     
@@ -141,7 +141,10 @@ display: flex;
  
 
   .two {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    padding-right: 10%;
     margin-top: 95vh;
     
     

@@ -189,22 +189,17 @@
 
 
 
-/*primera seccion
+/*primera seccion*/
 
 body {
 background-image: url(img/fondo\ inflado.jpg);
 background-repeat: no-repeat;
 background-color: #1d1d1f;
 background-size: cover;
-display: flex;
-
-    
-
 }
 
-.one {
+.primeraSeccion {
     height: calc(100vh);
-    
     display: flex;
     justify-content: start;
     align-items:start;
@@ -212,14 +207,14 @@ display: flex;
 
 }
 
-.one__title {
-    width: 60%;
+.titulo {
+    width: 58%;
     text-align: start;
     position: absolute;
-    top: 30%;
+    top: 18%;
 }
 
-.circle {
+.circulo {
    
         width: 310px;
         height: 310px;
@@ -227,7 +222,7 @@ display: flex;
         background-color: #1d1d1f;
         position: absolute;
         top: 50%;
-        right: 8%;
+        right: 10%;
         transform: translateY(-50%);
         cursor: pointer;
         transition: all .3s ease;
@@ -241,8 +236,8 @@ display: flex;
   }
   
 
- 
 
+/*segunda seccion
   .two {
     display: flex;
     justify-content: center;
@@ -327,6 +322,8 @@ display: flex;
   }
   
 }
+
+/*footer
 
 footer {
   position: fixed;

@@ -185,10 +185,6 @@
   fill:#EB10DC;
 }
 
-
-
-
-
 /*primera seccion*/
 
 body {
@@ -208,7 +204,7 @@ background-size: cover;
 }
 
 .titulo {
-    width: 58%;
+    width: 55%;
     text-align: start;
     position: absolute;
     top: 18%;
@@ -230,7 +226,7 @@ background-size: cover;
 }
 
 @media (max-width: 1024px) {
-    .circle {
+    .circulo {
       display: none;
     }
   }
@@ -301,27 +297,7 @@ background-size: cover;
 
 }
 
-@media screen and (max-width:765px) {
-  .navegacion {
-      display: none;
-  }
 
-  .responsive {
-      display: block;
-      color: #f5f5f7;
-  }
-
-  .bg {
-      background-color: #1d1d1f;
-  }
-
-
-   .navbar-toggler {
-      color: #f5f5f7;
-      
-  }
-  
-}
 
 /*footer
 

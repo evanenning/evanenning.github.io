@@ -248,7 +248,7 @@ background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 10%;
+    margin-left: 1%;
     height: 30vh;
          
 }
@@ -308,7 +308,7 @@ background-size: cover;
 
 
 
-/*footer
+/*footer*/
 
 footer {
   position: fixed;

@@ -21,13 +21,13 @@
   }
   
   .logo a:hover img{
-    content: url(img/logo\ rosa\ claro@144x-8.png);
+    content: url(/img/logo\ rosa\ claro@144x-8.png);
     width: 3rem;
     margin-left: 1rem;
   }
   
   .logo a:active img{
-    content: url(img/logo\ rosa\ claro@144x-8.png);
+    content: url(/img/logo\ rosa\ claro@144x-8.png);
     width: 3rem;
     margin-left: 1rem;
   }
@@ -202,7 +202,7 @@
   
   
   body {
-  background-image: url(img/fondo\ inflado.jpg);
+  background-image: url(/img/fondo\ inflado.jpg);
   background-repeat: no-repeat;
   background-color: #1d1d1f;
   background-size: cover;
@@ -224,7 +224,6 @@ footer {
     right: 0;
     width: 100%;
     height: 30px;
-    
     margin-bottom: 8px;
     transform: translateY(100%);
     transition: transform 0.2s ease-out;

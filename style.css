@@ -25,6 +25,13 @@
   width: 3rem;
   margin-left: 1rem;
 }
+
+.logo a:active img{
+  content: url(img/logo\ rosa\ claro@144x-8.png);
+  width: 3rem;
+  margin-left: 1rem;
+}
+
 /*barra de navegación*/
 
 .navigation {
@@ -60,6 +67,10 @@
 }
 
 .menu li a:hover {
+  color: #EB10DC;
+}
+
+.menu li a:active {
   color: #EB10DC;
 }
 
@@ -185,7 +196,10 @@
   fill:#EB10DC;
 }
 
-/*primera seccion*/
+.icon-container a:active svg {
+  fill:#EB10DC;
+}
+
 
 body {
 background-image: url(img/fondo\ inflado.jpg);
@@ -201,6 +215,7 @@ background-size: cover;
   }
 } 
 
+/*primera seccion*/
 .primeraSeccion {
     height: 100vh;
     display: flex;

@@ -12,6 +12,11 @@
 }
 
 /*logo*/
+.preload {
+  display: none;
+  background-image: url(img/logo\ rosa\ claro@144x-8.png);
+}
+
 .logo a img {
   display: block;
   width: 3rem;

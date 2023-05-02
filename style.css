@@ -9,7 +9,7 @@
   padding: 0 25px;
   transition: 0.3s;
   font-family: 'Montserrat Regular', sans-serif;
-  
+  font-weight: 400;
 }
 
 /*logo*/
@@ -286,6 +286,7 @@ background-size: cover;
     width: 100%;
     text-align: center;
     font-family: 'Montserrat SemiBold', sans-serif;
+    font-weight: 600;
     font-size: 34px;
     color: #f5f5f7;
    
@@ -373,6 +374,7 @@ footer .derechos{
 
 footer .derechos small{
   font-family: 'Montserrat Light', sans-serif;
+  font-weight: 300;
   font-size: 12px;
   color: #f5f5f7;
 }

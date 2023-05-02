@@ -76,6 +76,8 @@
   
   .menu li a {
     color: #f5f5f7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     text-decoration: none;
     display: block;
     padding: 40px 25px 20px;

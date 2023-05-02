@@ -1,3 +1,16 @@
+/*tipografias*/
+@font-face {
+  font-family: "Montserrat";
+  src: url("/tipografias/Montserrat-SemiBold.ttf") format("ttf"),
+       url("/tipografias/Montserrat-Regular.ttf") format("ttf"),
+       url("/tipografias/Montserrat-Light.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Reenie Beanie";
+  src: url("/tipografias/ReenieBeanie-Regular.ttf") format("ttf");
+}
+
 /*header*/
 .header{
   position: relative;

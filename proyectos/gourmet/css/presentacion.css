@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Bold' , sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/presentacion.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.contenido {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.794);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.construido, span {
+    margin: 10px;
+    font-family: 'Roboto Bold', sans-serif;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(219, 219, 219);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+.btn:active {
+    background-color: #59110B;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

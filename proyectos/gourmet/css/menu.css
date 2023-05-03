@@ -1,0 +1,59 @@
+body {
+    overflow-x: hidden;
+    background-image: url(../img/menu2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.721);
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.contenido {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.card img {
+    max-height: 50%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.card {
+    margin: 20px;
+    height: 20rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.688);
+    border: 1px solid black;
+    border-radius: 60px;
+    padding: 0;
+    transition: border .3s ease;
+    transition: box-shadow .3s ease;
+}
+
+.card:hover {
+    border: 3px solid #771810;
+    box-shadow: 1px 4px 10px #771810;
+}
+
+.card-body {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 2rem;
+}
+
+.precios {
+    font-size: 1rem;
+    font-family: 'Roboto Light', sans-serif;
+}

@@ -1,0 +1,307 @@
+* {
+    font-family: "EB Garamond", serif;
+}
+
+
+/* estilos del nav */
+
+.responsive {
+    display: none;
+}
+
+.navegacion {
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    z-index: 3;
+}
+
+.burger {
+    display: none;
+}
+
+.logo_final{
+    height: 80px;
+    margin-left: -500px;
+    margin: 10px 650px 10px 0; 
+    width: auto;
+}
+
+.links {
+    background-color: rgba(0, 0, 0, 0.724);
+    height: calc(3.5rem);
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+}
+
+.links .opciones {
+    padding: 0 2rem;
+}
+
+
+.links .home {
+    margin-right: auto;
+    font-size: 1.5rem;
+}
+
+.opciones a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.opciones {
+    border-radius: 10px;
+    transition: background-color .3s ease;
+}
+
+.opciones:hover {
+    background-color: #59110B;
+    border-color: #59110B;
+}
+
+
+
+/* estilos de la primera seccion que se encuentra en el header */
+.one {
+    height: calc(100vh);
+    background-image: url(img/fondo_home.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.one__title {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    color: white;
+    background-color: #000000ab;
+    padding: 10px;
+}
+
+.one__btn {
+    background-color: #59110B;
+    border-color: #59110B;
+
+}
+
+.one__btn:hover {
+    background-color: #771810;
+    border-color: #771810;
+}
+
+
+
+
+/* estilos de la primera seccion*/
+.segunda {
+    height: calc(100vh);
+    background-image: url(img/fondo_form_y_menu.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* este estilo da una capa negra transparente a background */
+.segunda .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.628);
+    z-index: 1;
+}
+
+/* estilos del "quienes somos" */
+
+.segunda__descripcion {
+    position: absolute;
+    max-width: 70%;
+    max-height: 100%;
+    color: white;
+    z-index: 2;
+    
+}
+
+.segunda__descripcion h3 {
+    font-size: 36px;
+    text-align: center;
+    font-family: "EB Garamond", serif;
+    
+
+}
+
+.segunda__descripcion p {
+    text-align: center;
+    font-size: 22px;
+    font-family: "Roboto Light", sans-serif;
+}
+
+
+
+
+.PieDePagina{
+    width: 100%;
+    background-color: #050000;
+}
+
+.PieDePagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.box-logo {
+    display: flex;
+    align-items: center;
+}
+
+.PieDePagina .grupo1 .box figure{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PieDePagina .grupo1 .box figure img{
+    width: 200px;
+}
+
+.map__btn {
+    background-color: #59110B;
+    border-color: #59110B;
+}
+
+.map__btn:hover {
+    background-color: #771810;
+    border-color: #771810;
+}
+
+.PieDePagina .grupo1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.PieDePagina .grupo1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.PieDePagina .grupo1 .RedSocial a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #59110B;
+    text-align: center;
+    transition: all 300ms ease;
+
+}
+
+.PieDePagina .grupo1 .RedSocial a:hover{
+    color: #771810;
+}
+
+.box p {
+    font-size: 20px;
+
+}
+
+.mapa {
+    display: flex;
+    height: calc(50vh);
+    flex-direction: column;
+    justify-content: start;
+    margin-right: 5rem;
+
+}
+
+.mapa__img {
+    object-fit: cover;
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 30px;
+    box-shadow: 3px 1px 10px black;
+}
+
+.PieDePagina .grupo2{
+    background-color: #000000;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.PieDePagina .grupo2 small{
+    font-size: 15px;
+}
+
+
+
+@media screen and (max-width:800px){
+    .PieDePagina .grupo1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+
+/* estilos menores a tablet */
+
+@media screen and (max-width:900px) {
+    .one {
+        background-image: url(img/primera_seccion.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width:765px) {
+    .navegacion {
+        display: none;
+    }
+
+    .responsive {
+        display: block;
+        color: white;
+    }
+
+    .bg-black {
+        background-color: #000000ac;
+    }
+
+
+    .logo {
+        color: white
+    }
+
+    .navbar-toggler-icon {
+        color: white;
+    }
+
+
+}
+

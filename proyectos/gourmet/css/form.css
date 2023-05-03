@@ -1,0 +1,53 @@
+body {
+    height: 100%;
+    background-image: url(../img/louis-hansel-LIJujhJviMI-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.overlay {
+    display: block;
+    height: 100%;
+
+}
+
+form {
+    height: calc(100vh);
+    background-color: rgba(0, 0, 0, 0.666);
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    color: white;
+    padding-top: 15vh;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:767px) {
+    body {
+        width: 100%;
+        background-image: url(../img/seccion_contacto.jpg);
+        background-position: center;
+    }
+
+    form {
+        height: 100%;
+        width: 100%;
+    }
+
+    .inputs {
+        width: 300px;
+    }
+}

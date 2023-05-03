@@ -229,7 +229,7 @@
     fill:#EB10DC;
   }
   
-  
+/*body*/
   body {
   background-image: url(/img/fondo\ inflado.jpg);
   background-repeat: no-repeat;
@@ -237,12 +237,137 @@
   background-size: cover;
   
   }
+
+/*titulo y form*/
+
+.container-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.primeraSeccion {
+  order: 1;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: start;
+  align-items:start;
+  padding-left: 4rem;
+  padding-bottom: 0;
+
+}
+
+.titulo h1{
+  color: #f5f5f7;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  width: 54%;
+  text-align: start;
+  position: absolute;
+  top: 18%;
+  left: 7%;
   
-  @media (min-width: 1024px) {
-    body {
-      background-position: center -100px;
-    }
-  } 
+}
+
+/*circulo*/
+
+.circulo {
+  order: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #1d1d1f;
+  top: 20%;
+  right: 13%;
+  position: absolute;
+   
+
+}
+
+.contenidoCirculo p{
+  color: #f5f5f7;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  
+}
+.contenidoCirculo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.iconosCirculo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.iconosCirculo svg{
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  padding-left: 5%;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+
+
+
+
+
+
+
+/*resonsive primera seccion*/
+
+@media screen and (min-width: 768px) {
+  .container-flex {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .primeraSeccion {
+    order: 0;
+    width: 50%;
+  }
+
+  .circulo {
+    order: 1;
+    margin-top: 0;
+  }
+}
+
+/*circulo responive*/
+@media screen and (max-width: 768px) {
+  .circulo {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .contenidoCirculo p {
+    font-size: 12px;
+    padding-top: 3rem;
+  }
+  
+  .iconosCirculo svg {
+    transform: scale(0.7);
+    margin: 5px;
+    padding-bottom: 1rem;
+  }
+}
+
 
 /*footer*/
 

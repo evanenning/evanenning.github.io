@@ -281,6 +281,7 @@
   height: 300px;
   width: 500px;
   margin-top: 10rem;
+  left: 7%;
   justify-content: start;
   align-items:start;
   position:absolute;
@@ -337,8 +338,36 @@ input:focus + label, input:valid + label{
 
 input[type="text"]:focus {outline:none;}
 
+/*boton*/
+.btn{
+  background-color: #f5f5f7;
+  border-color: #f5f5f7;
+  border-radius: 0.5rem;
+  color: #BE15A4;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 1rem;
+  width: 5rem;
+  height: 12%;
+  
+}
 
+.btn:hover{
+  background-color: #BE15A4;
+  border-color: #BE15A4;
+  color: #f5f5f7;
+  
+  
+}
 
+.btn:active {
+  background-color: #1d1d1f;
+  border-color: #1d1d1f;
+  color: #BE15A4;
+  
+ 
+}
 
 
 /*circulo*/

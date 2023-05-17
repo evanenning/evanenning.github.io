@@ -279,6 +279,16 @@
     overflow: hidden;
     transition: background 0.8s;
   }
+  .card::after {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 3rem;
+    height: 3rem;
+    background: url(/img/flecha.png) center center no-repeat;
+    background-size: cover;
+  }
   
 /*card0*/
   .card0 {
@@ -325,6 +335,16 @@
       width: 28rem;
       height: 18rem;
     }
+    .card::after {
+      content: "";
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      width: 2rem;
+      height: 2rem;
+      background: url(/img/flecha.png) center center no-repeat;
+      background-size: cover;
+    }
     .card0{
       background-size: 30rem;
       background-position: top;
@@ -355,6 +375,16 @@
     .card {
       width: 18rem;
       height: 10rem;
+    }
+    .card::after {
+      content: "";
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      width: 1rem;
+      height: 1rem;
+      background: url(/img/flecha.png) center center no-repeat;
+      background-size: cover;
     }
     .card0{
       background-size: 20rem;

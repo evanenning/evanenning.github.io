@@ -274,35 +274,69 @@
 }
 
 /*form*/
-.input-group{
-  position: relative;
+.form_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  width: 500px;
+  margin-top: 22%;
+  justify-content: start;
+  align-items:start;
+  position:absolute;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-.input{
-  padding: 10px;
-  background: #EB10DC;
-  border-radius: 2px;
-  outline: none;
-  color: #f5f5f7;
-  border: 1px solid #f5f5f7;
+
+/* Input form estilo */
+
+input[type="text"] {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  border: 2px solid #f5f5f7;
+  border-radius: 4px;
+  height: 47px;
+  width:300px;
+  font-size: 14px;
+  box-shadow: 0 70px 63px -60px #000000;  
+  background-color: #BE15A4;
+  color:#f5f5f7
 }
-.placeholder{
-  position: absolute;
-  top: 10px;
-  left: 8px;
+
+
+/* focus */
+input:focus + label, input:valid + label{
+  font-size: 12px;
+  top: -5px;
+  left:10px;
+  background: #BE15A4;
+  border-radius: 8%;
+  padding: 0px 5px 0px 5px;
+}
+
+.input_wrap {width:auto; height:auto; position:relative;
+}
+
+.input_wrap label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   font-size: 16px;
-  padding: 0px 5px;
   color: #f5f5f7;
-  transition: 0.3s;
+  padding: 12px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
   pointer-events: none;
+
 }
 
-.input:focus + .placeholder,
-.input:not(:placeholder-shown)
-+ .placeholder{
-  top: -10px;
-  background-color: #EB10DC;
-}
+input[type="text"]:focus {outline:none;}
+
 
 
 

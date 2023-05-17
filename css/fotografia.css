@@ -263,10 +263,11 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  
 }
 
 .card{
-  width: 20rem;
+  width: 18rem;
   height: 380px;
   margin: 20px;
   background-color: #1d1d1f;
@@ -279,6 +280,17 @@
   position: relative;
   overflow: hidden;
   transition: background 0.8s;
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 2rem;
+  height: 2rem;
+  background: url(/img/flecha.png) center center no-repeat;
+  background-size: cover;
 }
 
 /*card0*/

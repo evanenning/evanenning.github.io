@@ -290,6 +290,7 @@
   .card0:hover {
     background: url(/img/portada\ delicias.png) center center no-repeat;
     background-size: 40rem;
+    background-position: top;
   }
   
 /*card1*/
@@ -302,7 +303,21 @@
   .card1:hover {
     background: url(/img/portada\ admin.png) center center no-repeat;
     background-size: 60rem;
+    background-position: top;
   }
+
+/*card1*/
+.card2 {
+  background: url(/img/portada\ eva.png) center center no-repeat;
+  background-size: 30rem;
+  background-position: top;
+}
+
+.card2:hover {
+  background: url(/img/portada\ eva.png) center center no-repeat;
+  background-size: 35rem;
+  background-position: top;
+}
   
 /*cards responsive*/
   @media (max-width: 768px) {
@@ -316,6 +331,7 @@
     }
     .card0:hover {
       background-size: 40rem;
+      background-position: top;
     }
     .card1{
       background-size: 40rem;
@@ -323,6 +339,15 @@
     }
     .card1:hover {
       background-size: 50rem;
+      background-position: top;
+    }
+    .card2{
+      background-size: 30rem;
+      background-position: top;
+    }
+    .card2:hover {
+      background-size: 40rem;
+      background-position: top;
     }
   }
   
@@ -337,6 +362,7 @@
     }
     .card0:hover {
       background-size: 24rem;
+      background-position: top;
     }
     .card1{
       background-size: 28rem;
@@ -344,7 +370,16 @@
     }
     .card1:hover {
       background-size: 30rem;
+      background-position: top;
       
+    }
+    .card2{
+      background-size: 20rem;
+      background-position: top;
+    }
+    .card2:hover {
+      background-size: 24rem;
+      background-position: top;
     }
   }
 

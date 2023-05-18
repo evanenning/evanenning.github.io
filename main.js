@@ -37,27 +37,15 @@ document.getElementById("botonEnviar").addEventListener("click", function() {
 
 //enviar formulario//
 
-document.getElementById("formulario").addEventListener("submit", function(event) {
-  event.preventDefault(); // Evita que el formulario se envíe de forma convencional
+document.getElementById("botonEnviar").addEventListener("click", function() {
+  var nombreInput = document.querySelector("#formulario input[name='nombre']");
+  var emailInput = document.querySelector("#formulario input[name='email']");
+  var mensajeInput = document.querySelector("#formulario input[name='mensaje']");
   
-  var nombreInput = document.querySelector("#formulario input[name='nombre']").value;
-  var emailInput = document.querySelector("#formulario input[name='email']").value;
-  var mensajeInput = document.querySelector("#formulario textarea[name='mensaje']").value;
-
-  var xhr = new XMLHttpRequest();
-  xhr.open("POST", "enviar_formulario.php", true);
-  xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+  var contenidoCorreo = "Nombre: " + nombreInput.value + "%0D%0A";
+  contenidoCorreo += "Email: " + emailInput.value + "%0D%0A";
+  contenidoCorreo += "Mensaje: " + mensajeInput.value + "%0D%0A";
   
-  xhr.onreadystatechange = function() {
-    if (xhr.readyState === XMLHttpRequest.DONE) {
-      if (xhr.status === 200) {
-        alert(xhr.responseText); // Muestra la respuesta del servidor
-      } else {
-        alert('Hubo un error al enviar el formulario.');
-      }
-    }
-  };
-  
-  var data = "nombre=" + encodeURIComponent(nombreInput) + "&email=" + encodeURIComponent(emailInput) + "&mensaje=" + encodeURIComponent(mensajeInput);
-  xhr.send(data);
+  var enlaceCorreo = "mailto:mariaevanenning@gmail.com?subject=Formulario de contacto&body=" + contenidoCorreo;
+  window.location.href = enlaceCorreo;
 });

@@ -249,7 +249,6 @@
 }
 
 .primeraSeccion {
-  order: 1;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -339,7 +338,7 @@ input:focus + label, input:valid + label{
 input[type="text"]:focus {outline:none;}
 
 /*boton*/
-.btn{
+#botonEnviar{
   background-color: #f5f5f7;
   border-color: #f5f5f7;
   border-radius: 0.5rem;
@@ -353,7 +352,7 @@ input[type="text"]:focus {outline:none;}
   
 }
 
-.btn:hover{
+#botonEnviar:hover{
   background-color: #BE15A4;
   border-color: #BE15A4;
   color: #f5f5f7;
@@ -361,19 +360,17 @@ input[type="text"]:focus {outline:none;}
   
 }
 
-.btn:active {
+#botonEnviar:active {
   background-color: #1d1d1f;
   border-color: #1d1d1f;
   color: #BE15A4;
-  
- 
+
 }
 
 
 /*circulo*/
 
 .circulo {
-  order: 2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -392,7 +389,7 @@ input[type="text"]:focus {outline:none;}
   color: #f5f5f7;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   padding-top: 1rem;
   padding-right: 1rem;
   padding-left: 1rem;
@@ -413,8 +410,8 @@ input[type="text"]:focus {outline:none;}
 }
 
 .iconosCirculo svg{
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   margin: 10px;
   padding-left: 5%;
     padding-right: 1rem;
@@ -422,31 +419,14 @@ input[type="text"]:focus {outline:none;}
 }
 
 
-/*resonsive primera seccion*/
-
-@media screen and (min-width: 768px) {
-  .container-flex {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-
-  .primeraSeccion {
-    order: 0;
-    width: 50%;
-  }
-
-  .circulo {
-    order: 1;
-    margin-top: 0;
-  }
-}
 
 /*circulo responive*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
   .circulo {
     width: 200px;
     height: 200px;
+    right: 2rem;
+    
   }
   
   .contenidoCirculo p {
@@ -457,8 +437,51 @@ input[type="text"]:focus {outline:none;}
   .iconosCirculo svg {
     transform: scale(0.7);
     margin: 5px;
-    padding-bottom: 1rem;
+    
   }
+}
+
+@media screen and (max-width: 770px) {
+  .circulo {
+    position: absolute;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    right: 23%;
+    top: 56%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .circulo {
+    position: absolute;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    right: 18%;
+    top: 58%;
+  }
+
+ 
+}
+
+@media screen and (max-width: 680px) {
+  .circulo {
+    position: absolute;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    right: 10%;
+    top: 58%;
+  }
+  
+}
+
+@media screen and (max-width: 500px) {
+input[type="text"] {
+  width: 250px;
+  
+}
 }
 
 

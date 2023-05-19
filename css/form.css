@@ -476,6 +476,27 @@ input[type="text"]:focus {outline:none;}
   }
   
 }
+/*responsive inputs*/
+@media screen and (max-width: 1400px) {
+  input[type="text"] {
+    width: 500px;
+    
+  }
+  }
+
+@media screen and (max-width: 1000px) {
+    input[type="text"] {
+      width: 300px;
+      
+    }
+    }
+
+@media screen and (max-width: 800px) {
+      input[type="text"] {
+        width: 300px;
+        
+      }
+      }
 
 @media screen and (max-width: 500px) {
 input[type="text"] {

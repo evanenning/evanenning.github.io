@@ -484,6 +484,13 @@ input[type="text"]:focus {outline:none;}
   }
   }
 
+@media screen and (max-width: 1200px) {
+    input[type="text"] {
+      width: 450px;
+      
+    }
+    }
+
 @media screen and (max-width: 1000px) {
     input[type="text"] {
       width: 300px;

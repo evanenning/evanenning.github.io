@@ -238,7 +238,11 @@
   
   }
 
-
+  @media (min-width: 1024px) {
+    body {
+      background-position: center -100px;
+    }
+  } 
 
 /*titulo*/
 

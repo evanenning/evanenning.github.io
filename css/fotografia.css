@@ -361,71 +361,91 @@
   background-position: top;
 }
 
+/*card6*/
+.card6 {
+  background: url(/img/café.png) center center no-repeat;
+  background-size: 300px;
+}
+
+.card6:hover {
+  background: url(/img/café.png) center center no-repeat;
+  background-size: 600px;
+  background-position: center;
+}
+/*card5*/
+.card7 {
+  background: url(/img/Té.jpg) center center no-repeat;
+  background-size: 300px;
+}
+
+.card7:hover {
+  background: url(/img/Té.jpg) center center no-repeat;
+  background-size: 600px;
+  background-position: center;
+}
+/*card5*/
+.card8 {
+  background: url(/img/melon.png) center center no-repeat;
+  background-size: 300px;
+}
+
+.card8:hover {
+  background: url(/img/melon.png) center center no-repeat;
+  background-size: 600px;
+  background-position: center;
+}
+
+
+
 /*card responsive*/
 
-
 @media (max-width: 768px) {
   .card0:hover {
     background-size: 400px;
   }
-}
-
-@media (max-width: 576px) {
-  .card0:hover {
-    background-size: 300px;
-  }
-}
-@media (max-width: 768px) {
   .card1:hover {
     background-size: 400px;
   }
-}
-
-@media (max-width: 576px) {
-  .card1:hover {
-    background-size: 300px;
-  }
-}
-@media (max-width: 768px) {
   .card2:hover {
     background-size: 400px;
   }
-}
-
-@media (max-width: 576px) {
-  .card2:hover {
-    background-size: 300px;
-  }
-}
-@media (max-width: 768px) {
   .card3:hover {
     background-size: 400px;
   }
-}
-
-@media (max-width: 576px) {
-  .card3:hover {
-    background-size: 300px;
-  }
-}
-@media (max-width: 768px) {
   .card4:hover {
     background-size: 400px;
   }
-}
-
-@media (max-width: 576px) {
-  .card4:hover {
-    background-size: 300px;
-  }
-}
-@media (max-width: 768px) {
   .card5:hover {
     background-size: 400px;
   }
+  .card6:hover {
+    background-size: 400px;
+  }
+  .card7:hover {
+    background-size: 400px;
+  }
+  .card8:hover {
+    background-size: 400px;
+  }
 }
 
+
 @media (max-width: 576px) {
+  .card0:hover {
+    background-size: 300px;
+  }
+  .card1:hover {
+    background-size: 300px;
+  }
+  .card2:hover {
+    background-size: 400px;
+  }
+  .card3:hover {
+    background-size: 300px;
+  }
+  .card4:hover {
+    background-size: 300px;
+  }
   .card5:hover {
     background-size: 300px;
   }

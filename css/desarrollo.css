@@ -316,7 +316,7 @@
     background-position: top;
   }
 
-/*card1*/
+/*card2*/
 .card2 {
   background: url(/img/portada\ eva.png) center center no-repeat;
   background-size: 30rem;
@@ -325,6 +325,32 @@
 
 .card2:hover {
   background: url(/img/portada\ eva.png) center center no-repeat;
+  background-size: 35rem;
+  background-position: top;
+}
+
+/*card3*/
+.card3 {
+  background: url(/img/Home\ desktop\ pommier.png) center center no-repeat;
+  background-size: 30rem;
+  background-position: top;
+}
+
+.card3:hover {
+  background: url(/img/Home\ desktop\ pommier.png) center center no-repeat;
+  background-size: 35rem;
+  background-position: top;
+}
+
+/*card4*/
+.card4 {
+  background: url(/img/Home\ desktop\ esteban.png) center center no-repeat;
+  background-size: 30rem;
+  background-position: top;
+}
+
+.card4:hover {
+  background: url(/img/Home\ desktop\ esteban.png) center center no-repeat;
   background-size: 35rem;
   background-position: top;
 }
@@ -350,7 +376,7 @@
       background-position: top;
     }
     .card0:hover {
-      background-size: 40rem;
+      background-size: 35rem;
       background-position: top;
     }
     .card1{
@@ -358,7 +384,7 @@
       background-position: top;
     }
     .card1:hover {
-      background-size: 50rem;
+      background-size: 45rem;
       background-position: top;
     }
     .card2{
@@ -366,9 +392,26 @@
       background-position: top;
     }
     .card2:hover {
-      background-size: 40rem;
+      background-size: 35rem;
       background-position: top;
     }
+    .card3{
+      background-size: 28rem;
+      background-position: top;
+    }
+    .card3:hover {
+      background-size: 30rem;
+      background-position: top;
+    }
+    .card4{
+      background-size: 28rem;
+      background-position: top;
+    }
+    .card4:hover {
+      background-size: 30rem;
+      background-position: top;
+    }
+   
   }
   
   @media (max-width: 576px) {
@@ -411,8 +454,23 @@
       background-size: 24rem;
       background-position: top;
     }
+    .card3{
+      background-size: 18rem;
+      background-position: top;
+    }
+    .card3:hover {
+      background-size: 20rem;
+      background-position: top;
+    }
+    .card4{
+      background-size: 18rem;
+      background-position: top;
+    }
+    .card4:hover {
+      background-size: 20rem;
+      background-position: top;
+    }
   }
-
 
 
 /*footer*/

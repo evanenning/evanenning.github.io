@@ -301,7 +301,7 @@
 
 .card0:hover {
   background: url(/img/P\ fotografia\ 1.jpg) center center no-repeat;
-  background-size: 600px;
+  background-size: 400px;
   background-position: right;
 }
 
@@ -313,7 +313,7 @@
 
 .card1:hover {
   background: url(/img/P\ fotografia\ 2.jpg) center center no-repeat;
-  background-size: 600px;
+  background-size: 400px;
   background-position: top;
 }
 /*card2*/
@@ -324,7 +324,7 @@
 
 .card2:hover {
   background: url(/img/P\ fotografia\ 3.jpg) center center no-repeat;
-  background-size: 600px;
+  background-size: 400px;
 }
 /*card3*/
 .card3 {
@@ -334,7 +334,7 @@
 
 .card3:hover {
   background: url(/img/P\ fotografia\ 5.jpg) center center no-repeat;
-  background-size: 600px;
+  background-size: 400px;
   background-position: top;
 }
 /*card4*/
@@ -345,7 +345,7 @@
 
 .card4:hover {
   background: url(/img/p\ fotografia\ 8.jpg) center center no-repeat;
-  background-size: 600px;
+  background-size: 400px;
   background-position: top;
 }
 
@@ -357,7 +357,7 @@
 
 .card5:hover {
   background: url(/img/P\ fotografia\ 7.jpg) center center no-repeat;
-  background-size: 600px;
+  background-size: 400px;
   background-position: top;
 }
 
@@ -369,10 +369,11 @@
 
 .card6:hover {
   background: url(/img/café.png) center center no-repeat;
-  background-size: 600px;
+  background-size: 400px;
   background-position: center;
 }
-/*card5*/
+
+/*card7*/
 .card7 {
   background: url(/img/Té.jpg) center center no-repeat;
   background-size: 300px;
@@ -380,10 +381,11 @@
 
 .card7:hover {
   background: url(/img/Té.jpg) center center no-repeat;
-  background-size: 600px;
+  background-size: 400px;
   background-position: center;
 }
-/*card5*/
+
+/*card8*/
 .card8 {
   background: url(/img/melon.png) center center no-repeat;
   background-size: 300px;
@@ -391,7 +393,7 @@
 
 .card8:hover {
   background: url(/img/melon.png) center center no-repeat;
-  background-size: 600px;
+  background-size: 400px;
   background-position: center;
 }
 
